@@ -124,3 +124,13 @@ GNSS/INS Localization’s Integrity with Gaussian Mixture Filters in a Bayesian 
 6th European Workshop on GNSS Signals and Signal Processing, Dec 2013, Munich, Germany. ffhal01002195f](https://hal.science/hal-01002195/document)
 
 * [KOTNIK, Bojan, SENDOREK, Pierre, ASTROV, Sergey, et al. Evaluation of voice activity and voicing detection. In : INTERSPEECH. 2008. p. 1642-1645.](https://d1wqtxts1xzle7.cloudfront.net/41160102/Evaluation_of_voice_activity_and_voicing20160114-31021-boerdj.pdf20160114-19908-1wdcvrm-libre.pdf?1452833976=&response-content-disposition=inline%3B+filename%3DEvaluation_of_voice_activity_and_voicing.pdf&Expires=1707428828&Signature=MMaWr7EDAirAHO0hZPSwTFzaDxCCVhzrku6T3uFS-kWbLVFLiyjcPExVc02x60BfTP5h992eQo3ZDRN4kUeDNqEnZTdu4jviF~EbdUIYQc0B4kH6HlBVD9ROCAlhup-ELltlD4n1b4zZ45geXuGwZCwKZZTgDb-vLSqg-ARk71~yPMhR0NTN3BCqUkIDRhjCVdQF7hYLzQX58frjmD9G2OpV2JlQx48c-jscEoTNmWRWO4pxl0obwsbx~umg1X4N3IdZFGR5fFVqiCVe-ahgf4rKMPMKGdzvxRJMID36~3MYC~eOltNz7G895pLGMe5zl-OGKQqs3O--b6-pMnRq0w__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
+
+---
+## Other talks
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1y8UzkM9eMI?si=y8-Uta0Pxb8fykfp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TP4ROl6EYrU?si=a5DYVBnLuJ0MqJKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OfI64rl5VNE?si=j42FP08DkX7-SBBl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
