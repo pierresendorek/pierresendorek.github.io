@@ -9,7 +9,7 @@ Interests
 * Surprising algorithms
 
 
-To contact me and know more about me, see my [LinkedIn profile](https://www.linkedin.com/in/pierresendorek/)
+More about me / contact [LinkedIn profile](https://www.linkedin.com/in/pierresendorek/)
 
 ## My personal projects
 
@@ -20,7 +20,7 @@ This algorithm enables to convert one's voice to someone elses voice. Developped
 The algorithm works by using a vocal feature extractor (pitch + formants).
 The features are then aligned with those of the target voice thanks to a Dynamic Time Warping algorithm. Then the mapping between the features is learned by the neural network, and I use my vocal synthesizer to generate a voice.
 
-[Repository](https://github.com/pierresendorek/voice_converter)
+[Source code](https://github.com/pierresendorek/voice_converter)
 
 Video of the conference
 
@@ -30,7 +30,7 @@ Video of the conference
 ### Vocoder
 Fascinated by this audio effect I decided to code a vocoder by myself to see how it works.
 
-[Repository](https://github.com/pierresendorek/vocoder)
+[Source code](https://github.com/pierresendorek/vocoder)
 
 Here is an example of how it sounds on my own voice
 
@@ -44,6 +44,8 @@ Here is an example of how it sounds on my own voice
 ### Beat Box to Real Percussions converter
 
 Here is an audio utility that converts "beatbox" sounds one make with its mouth to real percussion sounds. No Neural Networks were used here, only a research of a closest neighbor in the space of the features.
+
+[Source code](https://github.com/pierresendorek/redrum)
 
 | | |
 |---|---|
