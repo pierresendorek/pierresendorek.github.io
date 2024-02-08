@@ -18,7 +18,7 @@ More about me / contact [LinkedIn profile](https://www.linkedin.com/in/pierresen
 See my [github repositories](https://github.com/pierresendorek?tab=repositories) to have an overview of all my projects.
 
 ---
-### Voice converter
+### Voice converter (2017)
 
 [Source code](https://github.com/pierresendorek/voice_converter)
 
@@ -34,7 +34,7 @@ Video of the conference
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jjdS0HGN3Js?si=3GBJl5-9WIJSRkOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
-### Cryptocurrencies trading
+### Cryptocurrencies trading (2020)
 
 [Source code](https://github.com/pierresendorek/cryptocurrencies_trading)
 
@@ -47,7 +47,7 @@ A project in which I invested some time. The code contains
 
 
 ---
-### Vocoder
+### Vocoder (2016)
 
 [Source code](https://github.com/pierresendorek/vocoder)
 
@@ -64,7 +64,7 @@ Here is an example of how it sounds on my own voice
 | Result / output sound |<audio controls src="https://github.com/pierresendorek/pierresendorek.github.io/raw/main/audio/vocoder/out.mp3"></audio>|
 
 ---
-### Beat Box to Real Percussions converter
+### Beat Box to Real Percussions converter (2016)
 
 Here is an audio utility that converts "beatbox" sounds one make with its mouth to real percussion sounds. No Neural Networks were used here, only a research of a closest neighbor in the space of the features.
 
@@ -77,7 +77,7 @@ Here is an audio utility that converts "beatbox" sounds one make with its mouth 
 | Beatbox sound + Result together | <audio controls src="https://github.com/pierresendorek/pierresendorek.github.io/raw/main/audio/redrum/mix.mp3"></audio> |
 
 ---
-### Interacting Particles
+### Interacting Particles (2015)
 
 I also coded this project in Java. The goals were to gain experience with
 * Java graphical components
@@ -88,7 +88,7 @@ I also coded this project in Java. The goals were to gain experience with
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B-DOCRPKvX8?si=Yh07cRVRx6AGGL0_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
-### D'Alembert Wave Equation
+### D'Alembert Wave Equation (2015)
 I coded this project in Java. The goals were to gain experience with
 * Java graphical components
 * 3d isometric rendering, that I fully coded from scratch
@@ -97,7 +97,7 @@ I coded this project in Java. The goals were to gain experience with
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MeQwHqAqhgU?si=XYLxuIkJ_ECK_Cn0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
-### Sound generators, transformers and analyzers
+### Sound generators, transformers and analyzers (2023)
 
 [Source code](https://github.com/pierresendorek/sound_gen_transform_analyze)
 
