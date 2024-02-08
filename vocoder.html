@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8" />
+<title>Pierre SENDOREK</title>
+<link rel="icon" href="./pierre_sendorek.jpg" type="image/jpeg">
+
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+</head>
+<body>
+<div align="center">
+<p style="text-align:center;"><img src="img/von_koch.png" width="700" alt=""/></center> </p>
+
+
+<h2>Vocoder</h2>
+<br>
+<h3>Outline</h3>
+<p style="text-align:left;">
+This algorithm implements a vocoder.
+
+The algorithm <a href="https://github.com/pierresendorek/vocoder.git">Github/vocoder</a> takes the sound contained in <tt>in.wav</tt> as an input  
+and uses another sound, called the carrier (here, a major chord of sawtooths) which  
+is modulated by <tt>in.wav</tt>. The result is yield in the file <tt>out.wav</tt><br><br>
+</p>
+
+
+
+<table>
+<tr>
+<th> <tt>in.wav</tt></th><th> <audio controls>
+  <source src="./audio/vocoder/in.mp3" type="audio/mpeg">    
+Your browser does not support the audio element.
+</audio>
+ </th></tr>
+ 
+<tr><th> carrier</th><th> <audio controls>
+<source src="./audio/vocoder/carrier.mp3" type="audio/mpeg">
+</audio>
+ </th></tr>
+ <tr>
+<th> <tt>out.wav</tt></th><th> <audio controls>
+<source src="./audio/vocoder/out.mp3" type="audio/mpeg">
+</audio> </th>
+</tr>
+</table>
+
+
+
+
+<h3>Principle</h3>
+
+<p style="text-align:left;">
+The sound contained in <tt>in.wav</tt> is represented as a sequence \(x_t\) of real numbers.<br> 
+The carrier is represented as a sequence \(y_t\) of real numbers.<br>
+The sound <tt>out.wav</tt> is represented as a sequence \(z_t\) of real numbers.<br>
+
+The sequence \((z_t)_t\) is a sum of functions
+
+$$z_t = \sum_j  V_{j,t}$$
+ 
+ where <br>  
+\( V_{j,t} = Z_{j,t-jg} \mathbb{I}\{1 \leq t-jg \leq L\} \) is \(Z_{j,t}\) translated by \(jg\) samples.<br>
+\(\mathbb{I}(\,.\,) \) is the set indicator function.<br> 
+\( Z_{j,t} = \mathcal{F}^{-1} \left[ \frac{ X_j |X_j|.|Y_j| }{|X_j|^2 + \sigma^2} \right]\)<br>
+ where \(\mathcal{F}\) is the Discrete Fourier Transform <br>
+ \( X_j = \mathcal{F} [w.x_{jg+1:jg+L}] \)<br>
+ \( Y_j = \mathcal{F} [w.y_{jg+1:jg+L}] \)<br>
+ \(\sigma = 0.001 \). The addiction of \( \sigma^2 \) is done to take the noise in account and normalize only significant values of the spectrum, in analogy with the Wiener filter<br> 
+ and where <br>
+ \( (w_t)_{t=1:L} = \left(sin(\pi \frac{t-1}{L} )^2\right)_{t=1:L} \) is the apodization window. <br>
+ \(g = 512 \text{ samples } @ 44100\text{Hz} \approx 0.011s\) is the gap between analysis windows<br>
+  \(L = 1024 \text{ samples } @ 44100\text{Hz} \approx 0.022s\) is the analysis window's length.       
+</p>
+
+<h3>Comments</h3>
+
+<p style="text-align:left;">
+Note that the carrier could be replaced by an arbitrary sound. The following link contains an example of "Mad as Hell" speech by Peter Finch as Howard Beale from "Network" (1976) mutated with Wolfgang Amadeus Mozart's Requiem (KV.626) "Lacrimosa" utilizing the Digital Phase Vocoder.
+<a href="https://www.youtube.com/watch?v=O3_ihwhjHUw"><span style="white-space: nowrap;">See the YouTube video <img src="img/right_arrow-lower.png" align="bottom" style="width:16px;height:16px;"></span></a>
+</p>
+
+<p style="text-align:center;"><img src="img/von_koch.png" width="700" style="transform:rotate(180deg);" alt=""/></center> </p>
+</div>
+</body>

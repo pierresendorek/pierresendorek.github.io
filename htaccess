@@ -1,0 +1,26 @@
+# php 1
+# SetEnv PHP_VER 5
+
+# Spécification des jeux de caractères des documents (ajoutez les extensions que vous utilisez)
+AddCharset utf-8 .css .xml .po .php .js
+
+# activation php5 (free.fr)
+<ifDefine Free>
+ PHP 1
+</ifDefine>
+
+# Protection du fichier .htaccess
+<Files .htaccess>
+Order Allow,Deny
+Deny from all
+</Files>
+
+# Protection du fichier wp-config.php
+<files wp-config.php>
+order allow,deny
+deny from all
+</files>
+
+# Désactivation de l'affichage des répertoires
+Options All -Indexes
+

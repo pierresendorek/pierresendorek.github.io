@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8" />
+<title>Pierre SENDOREK</title>
+<link rel="icon" href="./pierre_sendorek.jpg" type="image/jpeg">
+
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+</head>
+<body>
+<div align="center">
+<p style="text-align:center;"><img src="img/von_koch.png" width="700" alt=""/></center> </p>
+
+
+<h2>Re-drum</h2>
+<br>
+
+<h3>Outline</h3>
+<p style="text-align:left;">
+This algorithm converts a pattern of vocal imitation of drums to the same musical pattern but with the vocal sounds replaced by samples of acoustic drums.
+
+The algorithm <a href="https://github.com/pierresendorek/redrum.git">Github/redrum</a> takes the sound contained in <tt>in.wav</tt> as an input  
+as well as a dictionary that provides the mapping between the vocal imitation of drums to the target acoustic drum sounds, and yields the sound <tt>out.wav</tt><br><br>
+</p>
+
+<h3>Principle</h3>
+
+<p style="text-align:left;">
+For each peak detected in <tt>in.wav</tt>, the spectral features of a segment of 100ms following the peak are extracted and compared to the spectral features of the example sounds which are the keys of the dictionary.
+The features at each peak are associated to the most similar features of example sound (which is itself a vocal imitation of drums) from the keys of the dictionary.<br>
+Finally <tt>out.wav</tt> is made by placing the corresponding acoustic drum sample at the peak, for each peak.    
+</p>
+
+
+
+<table>
+<tr>
+<th> <tt>in.wav</tt></th><th> <audio controls>
+  <source src="./audio/redrum/in.mp3" type="audio/mpeg">    
+Your browser does not support the audio element.
+</audio>
+ </th></tr>
+ 
+<tr><th> <tt>out.wav</tt></th><th> <audio controls>
+<source src="./audio/redrum/out.mp3" type="audio/mpeg">
+</audio>
+ </th></tr>
+ <tr>
+<th> <tt>mix.wav = in.wav + out.wav</tt></th><th> <audio controls>
+<source src="./audio/redrum/mix.mp3" type="audio/mpeg">
+</audio> </th>
+</tr>
+</table>
+
+
+
+<h3>Comments</h3>
+
+<p style="text-align:left;">The result is far from being perfect, but can be improved by providing more training samples to the algorithm.</p>
+
+
+<p style="text-align:center;"><img src="img/von_koch.png" width="700" style="transform:rotate(180deg);" alt=""/></center> </p>
+
+</div>
+</body>
