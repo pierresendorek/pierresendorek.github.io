@@ -7,7 +7,7 @@ Interests
 * Neural Networks
 * Bayesian models
 * Markov Chains
-* Optimization problems
+* Optimization methods
 * Surprising algorithms
 
 
@@ -109,6 +109,18 @@ This repository contains code and documentation for some audio tools I made. The
 
 
 
+---
+## Papers & Patents
 
+* Pierre Sendorek. “Amélioration de l’intégrité d’un système de positionnement GNSS/IMU” (Improvement of the integrity of a GNSS/IMU positioning system). PhD Thesis, French. CIFRE with Thales Avionics and Télécom ParisTech, june 2015. *Industrial Confidentiality.
 
+* [Pierre Sendorek, Karim Abed Meraim, Maurice Charbit. "Amélioration de l'intégrité d'une position GNSS par une réduction de la sensibilité à une panne satellite" Brevet Français Numéro P2937 6 sept. 2013. *Patent*.](https://data.inpi.fr/brevets/FR3010533)
 
+* [Pierre Sendorek, Maurice Charbit, Karim Abed-Meraim, Sébastien Legoll. Locally Optimal Confidence Ball for a Gaussian Mixture Random Variable. 4th Int. Conf. on Indoor Positioning and
+Indoor Navigation(IPIN)„ Oct 2013, Belfort, France. ffhal-01002332f](https://hal.science/hal-01002332/document)
+
+* [Pierre Sendorek, Karim Abed-Meraim, Maurice Charbit, Sebastien Legoll. Improvements of
+GNSS/INS Localization’s Integrity with Gaussian Mixture Filters in a Bayesian Framework. The
+6th European Workshop on GNSS Signals and Signal Processing, Dec 2013, Munich, Germany. ffhal01002195f](https://hal.science/hal-01002195/document)
+
+* [KOTNIK, Bojan, SENDOREK, Pierre, ASTROV, Sergey, et al. Evaluation of voice activity and voicing detection. In : INTERSPEECH. 2008. p. 1642-1645.](https://d1wqtxts1xzle7.cloudfront.net/41160102/Evaluation_of_voice_activity_and_voicing20160114-31021-boerdj.pdf20160114-19908-1wdcvrm-libre.pdf?1452833976=&response-content-disposition=inline%3B+filename%3DEvaluation_of_voice_activity_and_voicing.pdf&Expires=1707428828&Signature=MMaWr7EDAirAHO0hZPSwTFzaDxCCVhzrku6T3uFS-kWbLVFLiyjcPExVc02x60BfTP5h992eQo3ZDRN4kUeDNqEnZTdu4jviF~EbdUIYQc0B4kH6HlBVD9ROCAlhup-ELltlD4n1b4zZ45geXuGwZCwKZZTgDb-vLSqg-ARk71~yPMhR0NTN3BCqUkIDRhjCVdQF7hYLzQX58frjmD9G2OpV2JlQx48c-jscEoTNmWRWO4pxl0obwsbx~umg1X4N3IdZFGR5fFVqiCVe-ahgf4rKMPMKGdzvxRJMID36~3MYC~eOltNz7G895pLGMe5zl-OGKQqs3O--b6-pMnRq0w__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
