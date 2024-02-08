@@ -15,7 +15,7 @@ More about me / contact [LinkedIn profile](https://www.linkedin.com/in/pierresen
 
 ## My personal projects
 
-See my [github repositories](https://github.com/pierresendorek?tab=repositories) to have an overview of all my projects.
+See my [github repositories](https://github.com/pierresendorek?tab=repositories) to have an overview of many of my projects.
 
 ---
 ### Voice converter (2017)
