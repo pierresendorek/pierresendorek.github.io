@@ -2,10 +2,12 @@
 
 ## About me
 Interests
-* Synthesizers, Sound Effects, weird sounds
+* Synthesizers, sound effects, weird sounds
+* Machine Learning
+* Neural Networks
 * Bayesian models
 * Markov Chains
-* Neural Networks
+* Optimization problems
 * Surprising algorithms
 
 
@@ -18,12 +20,14 @@ See my [github repositories](https://github.com/pierresendorek?tab=repositories)
 ---
 ### Voice converter
 
+[Source code](https://github.com/pierresendorek/voice_converter)
+
 This algorithm enables to convert one's voice to someone elses voice. Developped as a side project, my former company, Xebia, gave me the opportunity to present it at our yearly conference.
 
 The algorithm works by using a vocal feature extractor (pitch + formants).
-The features are then aligned with those of the target voice thanks to a Dynamic Time Warping algorithm. Then the mapping between the features is learned by the neural network, and I use my vocal synthesizer to generate a voice.
+At learning time, the features are aligned with those of the target voice thanks to a Dynamic Time Warping algorithm. Then the mapping between the features is learned by the neural network. At synthesis time, my voice features are extracted and converted by the neural network without alignment. Finally I use my vocal synthesizer to generate the target voice.
 
-[Source code](https://github.com/pierresendorek/voice_converter)
+
 
 Video of the conference
 
@@ -32,19 +36,24 @@ Video of the conference
 ---
 ### Cryptocurrencies trading
 
+[Source code](https://github.com/pierresendorek/cryptocurrencies_trading)
+
 A project in which I invested some time. The code contains
 * Python wrappers for API calls to get informations about the values of previous trades.
 * Python wrappers to download historical data
 * Recursive exponential smoothing functions for nonhomogeneous time sampling to extract smoothed features such as averages, variances at with parametrable smoothing, and their mathematical derivations.
 * Some strategies that I tried (arbitrage, noise scalping and more)
 
-[Source code](https://github.com/pierresendorek/cryptocurrencies_trading)
+
 
 ---
 ### Vocoder
-Fascinated by this audio effect I decided to code a vocoder by myself to see how it works.
 
 [Source code](https://github.com/pierresendorek/vocoder)
+
+
+Fascinated by this audio effect I decided to code a vocoder by myself to see how it works.
+
 
 Here is an example of how it sounds on my own voice
 
@@ -86,6 +95,18 @@ I coded this project in Java. The goals were to gain experience with
 * D'Alembert Wave Equation, and play with some parameters
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MeQwHqAqhgU?si=XYLxuIkJ_ECK_Cn0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+### Sound generators, transformers and analyzers
+
+[Source code](https://github.com/pierresendorek/sound_gen_transform_analyze)
+
+This repository contains code and documentation for some audio tools I made. The goal of the project is to group the work also done in my other sound-related projects, such as
+* [audioTools](https://github.com/pierresendorek/audioTools)
+* Vocoder (as seen before on this page)
+* Redrum (as seen before on this page)
+* [Neural Sound Generator](https://github.com/pierresendorek/neural_sound_generator)
+
 
 
 
